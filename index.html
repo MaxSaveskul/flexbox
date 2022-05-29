@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flexbox</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="show_part">
+			<div class="show_part__search">
+				<form action="">
+					<input type="search" name="search" id="search" class="search" placeholder="Type city here...">
+					<input type="button" value="Search" class="searchButton">
+				</form>
+			</div>
+			<div class="show_part__day">
+				<p class="show_part__day_name">Thursday</p>
+				<p class="show_part__forecast">"scattered clouds"</p>
+				<img class="clouds" src="./img/clouds.png" alt="">
+			</div>
+			<div class="show_part__temperature">
+				<div class="show_part__ball">23°</div>
+				<div class="show_part__city_name">Madrid (ES)</div>
+				<button class="show_part__plus">+</button>
+			</div>
+			<img class="show_part__city_picture" src="./img/madrid.jpg" alt="">
+		</div>
+		<div class="info_part">
+			<div class="info_part__container">
+				<header class="info_part__header">
+					<p class="info_part__my_cities">My Cities (1/5)</p>
+					<nav>
+						<button class="nav">Celsius</button>
+						<button class="nav">Fahrenheit</button>
+						<button class="nav">Translate</button>
+					</nav>
+				</header>
+				<div class="info_part__line"></div>
+				<section class="info_part__timeline">
+					<h2>Timeline <span>Week</span></h2>
+					<div class="info_part__timeline_block">
+						<div class="info_part__timeline_blocks">
+							<img src="./img/clouds.png" alt="" class="timeline_icon special">
+							<p class="temperature">23°</p>
+							<p class="time">09:00</p>
+						</div>
+						<div class="info_part__timeline_blocks">
+							<img src="./img/1530391_weather_clouds_sun_sunny_icon.png" alt="" class="timeline_icon">
+							<p class="temperature">28°</p>
+							<p class="time">12:00</p>
+						</div>
+						<div class="info_part__timeline_blocks">
+							<img src="./img/2682848_day_forecast_sun_sunny_weather_icon.png" alt=""
+								class="timeline_icon">
+							<p class="temperature">32°</p>
+							<p class="time">15:00</p>
+						</div>
+						<div class="info_part__timeline_blocks">
+							<img src="./img/2682848_day_forecast_sun_sunny_weather_icon.png" alt=""
+								class="timeline_icon">
+							<p class="temperature">33°</p>
+							<p class="time">18:00</p>
+						</div>
+						<div class="info_part__timeline_blocks">
+							<img src="./img/5896937_cloud_moon_rain_sun_weather_icon.png" alt="" class="timeline_icon">
+							<p class="temperature">30°</p>
+							<p class="time">21:00</p>
+						</div>
+					</div>
+				</section>
+				<section class="info_part__highlights">
+					<h2>Today's highlights</h2>
+					<div class="info_part__highlights_block">
+						<div class="info_part__highlights_blocks">
+							<p class="temperature">Humidity</p>
+							<img src="./img/2682839_drop_forecast_humidity_precipitation_rain_icon.png" alt=""
+								class="info_part__highlights_icon">
+							<p class="time">31%</p>
+						</div>
+						<div class="info_part__highlights_blocks">
+							<p class="temperature">Pressure</p>
+							<img src="./img/2675979.png" alt="" class="info_part__highlights_icon">
+							<p class="time">1020hPa</p>
+						</div>
+						<div class="info_part__highlights_blocks info_part__highlights_blocks_special">
+							<div class="info_part__highlights_first">
+								<img src="./img/7984990_weather_temperature_thermometer_cold_winter_icon.png" alt=""
+									class="info_part__highlights_icon">
+								<p class="temperature">23°</p>
+							</div>
+							<div class="info_part__highlights_second">
+								<img src="./img/7795620_weather_warm_termometer_hot_temperature_icon.png" alt=""
+									class="info_part__highlights_icon">
+								<p class="temperature">33°</p>
+							</div>
+						</div>
+						<div class="info_part__highlights_blocks">
+							<p class="temperature">Cloud Coverage</p>
+							<img src="./img/2998130_cloud_clouds_cloudy_network_weather_icon.png" alt=""
+								class="info_part__highlights_icon">
+							<p class="time">31%</p>
+						</div>
+						<div class="info_part__highlights_blocks">
+							<p class="temperature">Wind Speed</p>
+							<img src="./img/6074696_cloud_ecology_energy_renewable_turbine_icon.png" alt=""
+								class="info_part__highlights_icon">
+							<p class="time">2.56m/s</p>
+						</div>
+						<div class="info_part__highlights_blocks info_part__highlights_blocks_special">
+							<div class="info_part__highlights_first">
+								<img src="./img/1530387_weather_morning_sun_sunrise_icon.png" alt=""
+									class="info_part__highlights_icon">
+								<p class="temperature">6:58</p>
+							</div>
+							<div class="info_part__highlights_second">
+								<img src="./img/1530384_weather_evening_sun_sunset_icon.png" alt=""
+									class="info_part__highlights_icon">
+								<p class="temperature">21:43</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
